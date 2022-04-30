@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive coffee shop website design</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style3.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        <img src="images3/logo.png" alt="logo">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="mainMenu.html">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#about">about</a>
+        <a href="#blogs">blogs</a>
+        <a href="#contact">contact</a>
+        <a href="signin.html">login</a>
+        <a href="logout.html">Logout</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>fresh coffee in the morning</h3>
+        <p>"Science may never come up with a better office communication system than the coffee break."<br>
+        ----Earl Wilson</p>
+        <a href="#products" class="btn">get yours now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> our <span>products</span> </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="img/images/manu2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>coffee Menu</h3>
+                <form action="menuItem.php" method="POST">
+                    <input  class="btn open-menu" type="submit" name="coffee_menu" value="Open Menu">
+                </form>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img/menuItems/meals2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Business Meal</h3>
+                <form action="menuItem.php" method="POST">
+                    <input  class="btn open-menu" type="submit" name="meals_menu" value="Open Menu">
+                </form>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img/menuItems/pepsi.jpg">
+            </div>
+            <div class="content">
+                <h3>Cold Drinks</h3>
+                <form action="menuItem.php" method="POST">
+                    <input  class="btn open-menu" type="submit" name="drinks_menu" value="Open Menu">
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images3/quote-img.png" alt="" class="quote">
+            <p>I like this coffee it's really smooth and has an after taste of chocolate. Service was brilliant and the coffee was delivered the day after I ordered it and was ground perfectly for the Cafetiere.</p>
+            <img src="images3/pic-1.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images3/quote-img.png" alt="" class="quote">
+            <p>I ordered this coffee for special occasions, but we ended up having it almost every day. It is smooth and aromatic, going to order again!</p>
+            <img src="images3/pic-2.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="images3/quote-img.png" alt="" class="quote">
+            <p>FOR ME, THIS IS THE BEST OF THE FLAVOURED COFFEES THAT I'VE TRIED. IT FILLS THE WHOLE ROOM WITH THE INTENSE AROMA OF CHOCOLATE.</p>
+            <img src="images3/pic-3.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> us </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images3/about-img.jpeg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>what makes our coffee special?</h3>
+            <p>Coffee has always been a part of peoples life since time immemorial. Whether you nurse a cup of java in the morning or sip a coffee latte frappe in the evening, it can make a world of difference. Not only does the caffeine make you alive and kicking, but it also has various health benefits.</p>
+            <p>Coffee shops provide a place to gather, work, and drink. </p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+    </div>
+
+</section>
+<!-- about section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images3/blog-1.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 21st may, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images3/blog-2.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 21st may, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images3/blog-3.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 21st may, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="row">
+
+        <form name="sentMessage" method="POST" action="php/messages.php">
+            <h3>Send a Quick Message</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" name="mname" placeholder="name" required>
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" name="memail" placeholder="email" required>
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" name="mphone" placeholder="number" required>
+            </div>
+            <div class="inputBox">
+                <span class="fa fa-comments"></span>
+                <input type="text"  name="message" placeholder="message" required>
+            </div>
+            <input type="submit" name="sendMsg" value="Send Message" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+        <a href="#">home</a>
+        <a href="#">menu</a>
+        <a href="#">products</a>
+        <a href="#">review</a>
+        <a href="#">about</a>
+        <a href="#">contact</a>
+        <a href="#">blogs</a>
+    </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+<!-- custom js file link  -->
+<script src="js2/script.js"></script>
+
+</body>
+</html>

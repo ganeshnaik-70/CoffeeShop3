@@ -1,0 +1,90 @@
+body{
+	background:url(../img/images/backtwo.jpg) no-repeat;
+	height: 100vh;
+	background-size: 100% 100%;	
+}
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 8px 0px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 135px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content h6{
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+}
+.dropdown-content hr{
+    margin: 0;
+    color: black;
+    background-color: black;
+}
+.dropdown-content a {
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {display: block;}
+
+.btn{
+    margin-left: 130px;
+    padding: 5px 15px;
+    margin-top: 20px;
+}
+.container h2{
+    text-align: center;
+    margin: 10px;
+}
+.container{
+    width: 60%;
+    background-color: rgb(203, 252, 106);
+    box-shadow: 0px 0px 10px 0px #000;
+}
+.content{
+    background-color: rgb(227, 248, 133);
+    display: flex;
+    box-shadow: 0px 0px 5px 0px #000;
+}
+.image{
+    width: 50%;
+    margin: 20px 40px 0px;
+}
+.item-image{
+    width: 100%;
+}
+.details{
+    margin: 20px 20px;
+    padding: 20px 30px;
+    background-color: slategray;
+    color: white;
+}

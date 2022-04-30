@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back-btn{
+    position: absolute;
+    left: 40px;
+}
+.main{
+    box-shadow: 0px 0px 10px 0px #000;
+    background-color: rgb(0, 0, 0);
+}
+.body{
+    margin: 0;
+    padding: 0;
+}
+.img-main{
+    position: relative;
+}
+.texts{
+    position: absolute;
+    top:110px;
+    left: 5%;
+    color: rgb(128, 223, 247);
+}
+.heading{
+    text-align: center;
+    margin: 10px 0px;
+}
+.main-item{
+    width: 30%;
+    display:inline-block ;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.open-menu{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: rgb(250, 181, 117);
+    transition: 0.6s ease;
+}
+.open-menu:hover{
+    text-decoration: none;
+    color: #000;
+    background-color: rgb(248, 129, 50);
+}

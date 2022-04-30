@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Menu</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    
+    <!--Css for this page-->
+    <link href="css/mainMenu.css" rel="stylesheet" type="text/css">
+
+</head>
+<body style="background-color: rgb(31, 29, 29);">
+    <a href="index.html" class="back-btn"><img src="img/icons/left.png"></a>
+    <div class="container p-0 my-3 main">
+        <div class="container-fluid p-0 img-main">
+            <img src="images3/home-img.jpeg" alt="coffee image for menu" style="width: 100%; height: 350px;">
+            <div class="texts">
+                <h1>Are you hungry?</h1>
+                <h2>
+                    Don't Wait!!<br>
+                    Lets start to order food now!
+                </h2>
+            </div>
+        </div>
+ 
+        <div class="container p-0 mt-3 main-menu">
+            <h1 class="heading" style="color: white;">Menu</h1>
+            <div class="main-item">
+                <img src="img/images/manu.jpg" alt="coffee menu" style="width: 100%; height: 325px;">
+                <h2 style="color: white;">Coffee</h2>
+                <form action="menuItem.php" method="POST">
+                    <input  class="open-menu" type="submit" name="coffee_menu" value="Open Menu">
+                </form>
+            </div>
+            <div class="main-item">
+                <img src="img/images/meals1.jpg" alt="coffee menu" style="width: 100%;" height="325px">
+                <h2 style="color: white;">Business Meal</h2>
+                <form action="menuItem.php" method="POST">
+                    <input  class="open-menu" type="submit" name="meals_menu" value="Open Menu">
+                </form>
+            </div>
+            <div class="main-item">
+                <img src="img/images/pepsi.jpg" alt="coffee menu" style="width: 100%; height: 325px;">
+                <h2 style="color: white;">Cold Drinks</h2>
+                <form action="menuItem.php" method="POST">
+                    <input  class="open-menu" type="submit" name="drinks_menu" value="Open Menu">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Bootstrap and JQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+</body>
+</html>
